@@ -1,11 +1,13 @@
 export const darkBodyStyles = {
   backgroundColor: "#383738",
-  height: "100vh",
   color: "#FFFFFF",
+  height: "100%",
+  minHeight: "100vh",
 };
 
 export const lightBodyStyles = {
-  height: "100vh",
+  height: "100%",
+  minHeight: "100vh",
 };
 
 export const buttonsStyles = {

@@ -65,7 +65,7 @@ function App() {
       </Row>
 
       <Row className="justify-content-md-center">
-        <Col md={4}>
+        <Col md={5}>
           <Stack gap={2}>
             <h2>De</h2>
             <LenguageSelector
@@ -83,7 +83,7 @@ function App() {
             </div>
           </Stack>
         </Col>
-        <Col xs="auto">
+        <Col md={1}>
           <Button
             variant="link"
             onClick={() => handleInterchangeLanguages()}
@@ -92,7 +92,7 @@ function App() {
             <PiArrowsLeftRightBold color={mode ? "white" : "black"} size={25} />
           </Button>
         </Col>
-        <Col md={4}>
+        <Col md={5}>
           <Stack gap={2}>
             <h2>A</h2>
             <LenguageSelector onChange={handleSetToLenguages} value={toLanguage} type={SelectionType.to} />
@@ -118,7 +118,7 @@ function App() {
       </Row>
 
       <Row className="justify-content-md-center">
-        <Col xs="auto">
+        <Col md={1}>
           <Button variant="link" onClick={() => handleToggleMode()}>
             <IoInvertMode color={mode ? "white" : "black"} size={25} />
           </Button>
